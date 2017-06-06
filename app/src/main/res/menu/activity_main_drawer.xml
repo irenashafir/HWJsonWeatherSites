@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tel_aviv"
+            android:icon="@mipmap/location"
+            android:title="Tel Aviv" />
+        <item
+            android:id="@+id/haifa"
+            android:icon="@mipmap/location"
+            android:title="Hifa" />
+        <item
+            android:id="@+id/eilat"
+            android:icon="@mipmap/location"
+            android:title="Eilat" />
+        <item
+            android:id="@+id/ako"
+            android:icon="@mipmap/location"
+            android:title="Ako" />
+    </group>
+
+    <item android:title="cites in the world">
+        <menu>
+            <item
+                android:id="@+id/new_york"
+                android:icon="@mipmap/location"
+                android:title="New York" />
+            <item
+                android:id="@+id/london"
+                android:icon="@mipmap/location"
+                android:title="London" />
+
+            <item
+                android:id="@+id/other"
+                android:icon="@mipmap/location"
+                android:title="Other" />
+        </menu>
+    </item>
+
+</menu>
