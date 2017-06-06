@@ -134,7 +134,6 @@ import android.widget.EditText;
                     break;
             }
 
-
             weatherFragment wf = onTabSelected(cityClicked);
             getSupportFragmentManager().beginTransaction().replace(R.id.frame, wf).commit();
 
